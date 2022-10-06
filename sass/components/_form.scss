@@ -71,10 +71,10 @@
     position: relative;
     display: block;
     margin-bottom: 10px;
-}
 
-.register-form-field:last-child {
-    margin-bottom: 0;
+    &:last-child {
+        margin-bottom: 0;
+        }
 }
 
 .register-form-label {
@@ -101,10 +101,10 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
     cursor: pointer;
-}
 
-.register-form-input:focus {
-    border-color: var(--accent-bg-cl);
+    &:focus {
+        border-color: var(--accent-bg-cl);
+        }
 }
 
 .register-form-icon {
@@ -147,10 +147,10 @@
     transition-property: border-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.register-form-message:focus {
-    border-color: var(--accent-bg-cl);
+    &:focus {
+        border-color: var(--accent-bg-cl);
+        }
 }
 
 .register-form-agreement {

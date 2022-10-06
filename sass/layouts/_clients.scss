@@ -31,12 +31,12 @@
     transition-property: color, border;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.clients__link:hover,
-.clients__link:focus {
-    color: var(--accent-bg-cl);
-    border: 1px solid var(--accent-bg-cl);
+    &:hover,
+    &:focus {
+        color: var(--accent-bg-cl);
+        border: 1px solid var(--accent-bg-cl);
+        }
 }
 
 .clients__icon {

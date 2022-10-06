@@ -423,9 +423,7 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   color: var(--accent-bg-cl);
   border: 1px solid var(--accent-bg-cl);
 }
@@ -475,7 +473,6 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -840,7 +837,6 @@ img {
   display: block;
   margin-bottom: 10px;
 }
-
 .register-form-field:last-child {
   margin-bottom: 0;
 }
@@ -870,7 +866,6 @@ img {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
-
 .register-form-input:focus {
   border-color: var(--accent-bg-cl);
 }
@@ -919,7 +914,6 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .register-form-message:focus {
   border-color: var(--accent-bg-cl);
 }
@@ -1060,8 +1054,6 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.modal-btn:hover,
-.modal-btn:focus {
+.modal-btn:hover, .modal-btn:focus {
   fill: var(--accent-txt-cl);
 }/*# sourceMappingURL=main.css.map */
